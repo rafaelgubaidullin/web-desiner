@@ -1,0 +1,32 @@
+.side-panel {
+  position: fixed;
+  z-index: 2;
+  top: 40rem;
+  left: -10rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transform: rotate(-90deg);
+  &__link {
+    display: flex;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    transition: 0.6s all;
+    &:hover {
+      color: #000;
+      scale: 1.2;
+    }
+  }
+  &__divider {
+    background: #000;
+    border: none;
+    width: 7rem;
+    height: 0.2rem;
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}

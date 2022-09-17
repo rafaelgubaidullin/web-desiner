@@ -1,0 +1,44 @@
+.offer {
+  padding-top: 20rem;
+  min-height: 100vh;
+  position: relative;
+  background: url("../img/main_bg.jpg") no-repeat 50% / cover;
+  &__subtitle {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    z-index: 1;
+    @include before-circle;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    margin-bottom: 2.5rem;
+  }
+  &__btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4.4rem;
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #000;
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+    &:last-child {
+      &:hover {
+        text-decoration: none;
+        color: $main-color;
+      }
+    }
+  }
+}

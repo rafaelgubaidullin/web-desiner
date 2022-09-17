@@ -116,8 +116,74 @@
     <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" href="css/style.min.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
+    <div class="navigation">
+      <div class="navigation__burger">
+        <span></span>
+        <span class="long"></span>
+        <span></span>
+      </div>
+      <div class="navigation__hidden">
+        <div class="navigation__overlay"></div>
+        <div class="navigation__menu">
+          <div class="navigation__menu-close">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+          <nav class="navigation__nav">
+            <ul class="navigation__nav-list">
+              <li><a href="#" class="navigation__nav-link">ПРО МЕНЯ</a></li>
+              <li><a href="#" class="navigation__nav-link">МОЙ ОПЫТ</a></li>
+              <li><a href="#" class="navigation__nav-link">МОИ НАВЫКИ</a></li>
+              <li><a href="#" class="navigation__nav-link">МОИ РАБОТЫ</a></li>
+              <li><a href="#" class="navigation__nav-link">ПРАЙС-ЛИСТ</a></li>
+              <li><a href="#" class="navigation__nav-link">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+          <div class="navigation__menu-social">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="side-panel">
+      <div class="side-panel__text">Социальные сети</div>
+      <hr class="side-panel__divider" />
+      <a href="" class="side-panel__link"
+        ><ion-icon name="logo-facebook"></ion-icon
+      ></a>
+      <a href="" class="side-panel__link"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+      <a href="" class="side-panel__link"
+        ><ion-icon name="logo-github"></ion-icon
+      ></a>
+    </div>
+
+    <header class="offer">
+      <div class="container">
+        <div class="offer__subtitle">Меня зовут Анастасия Смит</div>
+        <h1 class="offer__title">
+          Я - Ваш Дизайнер <br />
+          Cайтов и Приложений
+        </h1>
+        <div class="offer__btns">
+          <a href="#" class="offer__link btn">Портфолио</a>
+          <a href="#" class="offer__link">Про меня</a>
+        </div>
+      </div>
+    </header>
     <script src="js/script.js"></script>
   </body>
 </html>
