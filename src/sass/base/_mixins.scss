@@ -11,3 +11,15 @@
     background: $main-color;
   }
 }
+@mixin div-circle {
+  .circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 100%;
+    background: $main-color;
+  }
+}

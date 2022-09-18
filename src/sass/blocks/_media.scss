@@ -1,0 +1,23 @@
+@media (max-width: 85em) {
+  .side-panel {
+    display: none;
+  }
+}
+
+@media (max-width: 73em) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 44em) {
+  .navigation__menu {
+    width: 30rem;
+  }
+  .offer__title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
